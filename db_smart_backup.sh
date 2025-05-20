@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # LICENSE: BSD 3 clause
-# Author: Mathieu Le Marec - Pasquet / kiorky@cryptelium.net
+# Author: Makina Corpus / freesoftware@makina-corpus.com
 
 __NAME__="db_smart_backup"
 
@@ -570,7 +570,7 @@ do_pre_backup() {
     fi
     # If backing up all DBs on the server
     log_rule
-    log "DB_SMART_BACKUP by kiorky@cryptelium.net / http://www.makina-corpus.com"
+    log "DB_SMART_BACKUP by freesoftware@makina-corpus.com / http://www.makina-corpus.com"
     log "Conf: ${YELLOW}'${DSB_CONF_FILE}'"
     log "Log: ${YELLOW}'$(get_logfile)'"
     log "Backup Start Time: ${YELLOW}$(readable_date)${NORMAL}"
